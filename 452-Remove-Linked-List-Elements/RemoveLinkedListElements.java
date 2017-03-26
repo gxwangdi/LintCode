@@ -21,7 +21,7 @@ public class RemoveLinkedListElements {
         dummy.next = head;
         ListNode cur = dummy;
         while (cur != null) {
-            while (cur.next!=null && cur.next.val == val) {
+            while (cur.next != null && cur.next.val == val) {
                 cur.next = cur.next.next;
             }
             cur = cur.next;
