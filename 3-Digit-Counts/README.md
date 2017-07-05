@@ -1,3 +1,8 @@
+Transfer to a string and count matching char.  
+
+Time O(n×L)O(n \times L)O(n×L)  Space O(L)O(L)O(L) 
+where L is the length of n. 
+==============================================================
 Reference http://www.hawstein.com/posts/20.4.html  
 
 当某一位的数字小于i时，那么该位出现i的次数为：更高位数字x当前位数

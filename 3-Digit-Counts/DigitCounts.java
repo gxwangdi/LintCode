@@ -5,6 +5,19 @@ public class DigitCounts {
 	 */
 	public int digitCounts(int k, int n) {
 		int count = 0;
+		char kChar = (char) (k + '0');
+		for (int i = k; i <= n; i++) {
+			char[] iChars = Integer.toString(i).toCharArray();
+			for (char iChar : iChars) {
+				if (kChar == iChar)
+					count++;
+			}
+		}
+		return count;
+	}
+	/*
+	public int digitCounts(int k, int n) {
+		int count = 0;
 		int base = 1;
 		while (n / base >= 1) {
 			int curBit = n % (base * 10) / base;
@@ -21,4 +34,5 @@ public class DigitCounts {
 		}
 		return count;
 	}
+	*/
 }
