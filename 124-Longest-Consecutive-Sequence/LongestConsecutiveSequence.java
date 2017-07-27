@@ -3,8 +3,7 @@ import java.util.Set;
 
 public class LongestConsecutiveSequence {
 	/**
-	 * @param nums
-	 *            : A list of integers
+	 * @param nums: A list of integers
 	 * @return an integer
 	 */
 	public int longestConsecutive(int[] num) {
