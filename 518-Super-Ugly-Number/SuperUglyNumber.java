@@ -2,11 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SuperUglyNumber {
-	/*
-     * @param n: a positive integer
-     * @param primes: the given prime list
-     * @return: the nth super ugly number
-     */
+	/**
+	 * @param n: a positive integer
+	 * 
+	 * @param primes: the given prime list
+	 * 
+	 * @return: the nth super ugly number
+	 */
 	public int nthSuperUglyNumber(int n, int[] primes) {
 		if (n <= 0 || primes == null || primes.length == 0) {
 			return 0;
