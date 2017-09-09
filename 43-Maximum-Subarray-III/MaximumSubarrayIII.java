@@ -41,7 +41,6 @@ public class MaximumSubarrayIII {
 	}
 	/*
 	public int maxSubArray(int[] nums, int k) {
-		// write your code here
 		if (nums == null || nums.length < k) {
 			return 0;
 		}
